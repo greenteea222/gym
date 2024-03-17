@@ -1,0 +1,4 @@
+noop_max = 30, frame_skip = 4, screen_size = 84, terminal_on_life_loss = True, clip_reward = True, action_repeat_probability = 0.0, normalize = True 
+
+start training + 
+GAMA = 0.99, GAE_LAMBDA = 0.95, EPISODE_LENGTH = 8192, TRAIN_BATCH_SIZE = 128, TRAIN_EPOCHS = 5, LEARNING_RATE = 0.00025, CLIP_VALUE = 0.2, ENTROPY_BETA = 0.02, NUM_ACTIONS = 18, CRITIC_BETA = 0.5, GRAD_CLIP = 5.0

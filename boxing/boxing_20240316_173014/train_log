@@ -1,0 +1,74 @@
+noop_max = 30, frame_skip = 4, screen_size = 84, terminal_on_life_loss = True, clip_reward = True, action_repeat_probability = 0.0, normalize = True 
+
+start training + 
+GAMA = 0.99, GAE_LAMBDA = 0.95, EPISODE_LENGTH = 2048, TRAIN_BATCH_SIZE = 32, TRAIN_EPOCHS = 5, LEARNING_RATE = 0.00025, CLIP_VALUE = 0.2, ENTROPY_BETA = 0.01, NUM_ACTIONS = 18, CRITIC_BETA = 0.5, GRAD_CLIP = 5.0
+train_epoch 4 Epoch 1/1000 completed. critic_loss = 0.8750234842300415  actor_loss = 0.013288596644997597  entropy_loss = 2.8678488731384277  total_loss = 0.4221218526363373 grads_norm = 2.069582939147949  mins=1.50      
+train_epoch 4 Epoch 2/1000 completed. critic_loss = 0.6838024854660034  actor_loss = -0.08200617134571075  entropy_loss = 2.8656463623046875  total_loss = 0.2312672734260559 grads_norm = 3.4401791095733643  mins=2.97      
+train_epoch 4 Epoch 3/1000 completed. critic_loss = 1.538568139076233  actor_loss = 0.3796606659889221  entropy_loss = 2.868506908416748  total_loss = 1.120316982269287 grads_norm = 5.010630130767822  mins=4.37      
+train_epoch 4 Epoch 4/1000 completed. critic_loss = 0.3742905259132385  actor_loss = 0.26548081636428833  entropy_loss = 2.848022937774658  total_loss = 0.4242312014102936 grads_norm = 2.0706913471221924  mins=5.86      
+train_epoch 4 Epoch 5/1000 completed. critic_loss = 0.4936475455760956  actor_loss = -0.018574774265289307  entropy_loss = 2.844193935394287  total_loss = 0.199920654296875 grads_norm = 4.176394939422607  mins=7.35      
+train_epoch 4 Epoch 6/1000 completed. critic_loss = 0.43040022253990173  actor_loss = -0.10732751339673996  entropy_loss = 2.840268611907959  total_loss = 0.0796116441488266 grads_norm = 3.47351336479187  mins=8.91      
+train_epoch 4 Epoch 7/1000 completed. critic_loss = 0.4054303467273712  actor_loss = 0.015655796974897385  entropy_loss = 2.828659772872925  total_loss = 0.19025367498397827 grads_norm = 3.0313260555267334  mins=10.42     
+train_epoch 4 Epoch 8/1000 completed. critic_loss = 0.31900137662887573  actor_loss = -0.12731097638607025  entropy_loss = 2.84446382522583  total_loss = 0.003943590447306633 grads_norm = 1.6514660120010376  mins=11.88     
+train_epoch 4 Epoch 9/1000 completed. critic_loss = 0.34480050206184387  actor_loss = 0.17024673521518707  entropy_loss = 2.8422656059265137  total_loss = 0.3144509196281433 grads_norm = 3.8233509063720703  mins=13.38     
+train_epoch 4 Epoch 10/1000 completed. critic_loss = 0.5410975217819214  actor_loss = -0.06683419644832611  entropy_loss = 2.8459389209747314  total_loss = 0.17551028728485107 grads_norm = 3.8437087535858154  mins=14.89     
+Average reward at epoch 10: 1.4
+train_epoch 4 Epoch 11/1000 completed. critic_loss = 0.4925478398799896  actor_loss = -0.10288916528224945  entropy_loss = 2.83467960357666  total_loss = 0.11532015353441238 grads_norm = 3.294109344482422  mins=18.28     
+train_epoch 4 Epoch 12/1000 completed. critic_loss = 0.4965248107910156  actor_loss = -0.33426105976104736  entropy_loss = 2.8139002323150635  total_loss = -0.11382967233657837 grads_norm = 2.650240421295166  mins=19.79     
+train_epoch 4 Epoch 13/1000 completed. critic_loss = 0.8945001363754272  actor_loss = -0.12362454831600189  entropy_loss = 2.7819576263427734  total_loss = 0.2961379289627075 grads_norm = 6.966769695281982  mins=21.31     
+train_epoch 4 Epoch 14/1000 completed. critic_loss = 0.3310573697090149  actor_loss = 0.038893815129995346  entropy_loss = 2.8051416873931885  total_loss = 0.1767335832118988 grads_norm = 2.915229320526123  mins=22.83     
+train_epoch 4 Epoch 15/1000 completed. critic_loss = 3.031557559967041  actor_loss = 0.2388940155506134  entropy_loss = 2.806124687194824  total_loss = 1.7270017862319946 grads_norm = 9.978522300720215  mins=24.28     
+train_epoch 4 Epoch 16/1000 completed. critic_loss = 1.120906114578247  actor_loss = 0.21415574848651886  entropy_loss = 2.779216766357422  total_loss = 0.747230589389801 grads_norm = 5.78395414352417  mins=25.74     
+train_epoch 4 Epoch 17/1000 completed. critic_loss = 0.5077643394470215  actor_loss = 0.08444318175315857  entropy_loss = 2.797957420349121  total_loss = 0.31079012155532837 grads_norm = 3.961662530899048  mins=27.20     
+train_epoch 4 Epoch 18/1000 completed. critic_loss = 0.36777931451797485  actor_loss = 0.28562131524086  entropy_loss = 2.7860474586486816  total_loss = 0.44212034344673157 grads_norm = 2.805351972579956  mins=28.66     
+train_epoch 4 Epoch 19/1000 completed. critic_loss = 0.7133144736289978  actor_loss = 0.13252243399620056  entropy_loss = 2.7749998569488525  total_loss = 0.4619249403476715 grads_norm = 3.9241435527801514  mins=30.13     
+train_epoch 4 Epoch 20/1000 completed. critic_loss = 0.4073910117149353  actor_loss = -0.08214499056339264  entropy_loss = 2.8001046180725098  total_loss = 0.0940767303109169 grads_norm = 2.522386074066162  mins=31.61     
+Average reward at epoch 20: -0.6
+train_epoch 4 Epoch 21/1000 completed. critic_loss = 0.42831262946128845  actor_loss = 0.10125736147165298  entropy_loss = 2.791938543319702  total_loss = 0.2880474030971527 grads_norm = 2.2173147201538086  mins=35.09     
+train_epoch 4 Epoch 22/1000 completed. critic_loss = 0.3327971398830414  actor_loss = 0.16751986742019653  entropy_loss = 2.79778790473938  total_loss = 0.30652227997779846 grads_norm = 2.053036689758301  mins=36.66     
+train_epoch 4 Epoch 23/1000 completed. critic_loss = 0.3043937683105469  actor_loss = 0.0021380484104156494  entropy_loss = 2.7851662635803223  total_loss = 0.12708961963653564 grads_norm = 3.152141571044922  mins=38.14     
+train_epoch 4 Epoch 24/1000 completed. critic_loss = 0.13263025879859924  actor_loss = -0.07120412588119507  entropy_loss = 2.7825961112976074  total_loss = -0.03208195045590401 grads_norm = 1.964638590812683  mins=39.58     
+train_epoch 4 Epoch 25/1000 completed. critic_loss = 0.19652432203292847  actor_loss = -0.07476021349430084  entropy_loss = 2.7876856327056885  total_loss = -0.0037135016173124313 grads_norm = 1.8131316900253296  mins=41.06     
+train_epoch 4 Epoch 26/1000 completed. critic_loss = 1.0986087322235107  actor_loss = 0.134567990899086  entropy_loss = 2.8036680221557617  total_loss = 0.6565282344818115 grads_norm = 6.886777400970459  mins=42.56     
+train_epoch 4 Epoch 27/1000 completed. critic_loss = 0.11346220225095749  actor_loss = 0.030834417790174484  entropy_loss = 2.7994632720947266  total_loss = 0.06028972193598747 grads_norm = 1.2519440650939941  mins=44.11     
+train_epoch 4 Epoch 28/1000 completed. critic_loss = 0.18034470081329346  actor_loss = 0.07402931153774261  entropy_loss = 2.784348487854004  total_loss = 0.13710026443004608 grads_norm = 1.6575038433074951  mins=45.56     
+train_epoch 4 Epoch 29/1000 completed. critic_loss = 0.1543715000152588  actor_loss = -0.11060399562120438  entropy_loss = 2.750016212463379  total_loss = -0.060158707201480865 grads_norm = 1.5184438228607178  mins=47.01     
+train_epoch 4 Epoch 30/1000 completed. critic_loss = 0.40042832493782043  actor_loss = 0.21422724425792694  entropy_loss = 2.770321846008301  total_loss = 0.38753044605255127 grads_norm = 3.059514284133911  mins=48.52     
+Average reward at epoch 30: -3.6
+train_epoch 4 Epoch 31/1000 completed. critic_loss = 0.18020549416542053  actor_loss = 0.22597740590572357  entropy_loss = 2.8100645542144775  total_loss = 0.2888104319572449 grads_norm = 1.7516874074935913  mins=52.02     
+train_epoch 4 Epoch 32/1000 completed. critic_loss = 0.19045045971870422  actor_loss = 0.32496824860572815  entropy_loss = 2.810436964035034  total_loss = 0.39294740557670593 grads_norm = 1.8359287977218628  mins=53.53     
+train_epoch 4 Epoch 33/1000 completed. critic_loss = 0.3064796030521393  actor_loss = -0.2295685112476349  entropy_loss = 2.8022894859313965  total_loss = -0.1034686341881752 grads_norm = 2.61788010597229  mins=54.96     
+train_epoch 4 Epoch 34/1000 completed. critic_loss = 0.23406924307346344  actor_loss = 0.1695880889892578  entropy_loss = 2.7876949310302734  total_loss = 0.2596511244773865 grads_norm = 2.733856678009033  mins=56.39     
+train_epoch 4 Epoch 35/1000 completed. critic_loss = 0.39955127239227295  actor_loss = -0.04817889630794525  entropy_loss = 2.768127918243408  total_loss = 0.12484125792980194 grads_norm = 3.06235671043396  mins=57.81     
+train_epoch 4 Epoch 36/1000 completed. critic_loss = 0.34264230728149414  actor_loss = -0.3015385568141937  entropy_loss = 2.758394241333008  total_loss = -0.1568521410226822 grads_norm = 3.547431468963623  mins=59.20     
+train_epoch 4 Epoch 37/1000 completed. critic_loss = 0.27629655599594116  actor_loss = -0.13798511028289795  entropy_loss = 2.771958827972412  total_loss = -0.026575783267617226 grads_norm = 1.6974841356277466  mins=60.59     
+train_epoch 4 Epoch 38/1000 completed. critic_loss = 0.5665221214294434  actor_loss = 0.11061897873878479  entropy_loss = 2.7762417793273926  total_loss = 0.36712655425071716 grads_norm = 4.728529930114746  mins=61.98     
+train_epoch 4 Epoch 39/1000 completed. critic_loss = 0.1668180525302887  actor_loss = -0.05828727036714554  entropy_loss = 2.7667477130889893  total_loss = -0.0015135761350393295 grads_norm = 1.6825494766235352  mins=63.36     
+train_epoch 4 Epoch 40/1000 completed. critic_loss = 0.07364283502101898  actor_loss = -0.0019062906503677368  entropy_loss = 2.7641382217407227  total_loss = 0.008331526070833206 grads_norm = 1.042526364326477  mins=64.74     
+Average reward at epoch 40: 2.8
+train_epoch 4 Epoch 41/1000 completed. critic_loss = 0.17075501382350922  actor_loss = -0.24128642678260803  entropy_loss = 2.769947052001953  total_loss = -0.1825217455625534 grads_norm = 1.9753508567810059  mins=67.88     
+train_epoch 4 Epoch 42/1000 completed. critic_loss = 0.30995360016822815  actor_loss = -0.010490931570529938  entropy_loss = 2.766547679901123  total_loss = 0.1179322749376297 grads_norm = 2.356978416442871  mins=69.26     
+train_epoch 4 Epoch 43/1000 completed. critic_loss = 0.359734445810318  actor_loss = 0.058738816529512405  entropy_loss = 2.76383638381958  total_loss = 0.21210500597953796 grads_norm = 3.6991961002349854  mins=70.64     
+train_epoch 4 Epoch 44/1000 completed. critic_loss = 0.18912068009376526  actor_loss = 0.18285372853279114  entropy_loss = 2.7828354835510254  total_loss = 0.2507575452327728 grads_norm = 1.468928575515747  mins=72.03     
+train_epoch 4 Epoch 45/1000 completed. critic_loss = 0.18684476613998413  actor_loss = 0.36909785866737366  entropy_loss = 2.794290542602539  total_loss = 0.43578076362609863 grads_norm = 1.6818599700927734  mins=73.42     
+train_epoch 4 Epoch 46/1000 completed. critic_loss = 0.11039884388446808  actor_loss = -0.3292301893234253  entropy_loss = 2.7965269088745117  total_loss = -0.30076488852500916 grads_norm = 1.0769184827804565  mins=74.82     
+train_epoch 4 Epoch 47/1000 completed. critic_loss = 0.11617323011159897  actor_loss = 0.037745680660009384  entropy_loss = 2.7859511375427246  total_loss = 0.06922590732574463 grads_norm = 1.1917331218719482  mins=76.21     
+train_epoch 4 Epoch 48/1000 completed. critic_loss = 0.28329116106033325  actor_loss = 0.14640851318836212  entropy_loss = 2.78267240524292  total_loss = 0.2615056037902832 grads_norm = 2.5064094066619873  mins=77.60     
+train_epoch 4 Epoch 49/1000 completed. critic_loss = 0.3856769800186157  actor_loss = -0.04959721118211746  entropy_loss = 2.764285087585449  total_loss = 0.11689458787441254 grads_norm = 3.497563123703003  mins=79.00     
+train_epoch 4 Epoch 50/1000 completed. critic_loss = 0.12516279518604279  actor_loss = 0.1781584769487381  entropy_loss = 2.7712297439575195  total_loss = 0.21435339748859406 grads_norm = 1.1706407070159912  mins=80.38     
+Average reward at epoch 50: 0.0
+train_epoch 4 Epoch 51/1000 completed. critic_loss = 0.18871071934700012  actor_loss = 0.012676112353801727  entropy_loss = 2.7855019569396973  total_loss = 0.08053562045097351 grads_norm = 1.472426414489746  mins=83.55     
+train_epoch 4 Epoch 52/1000 completed. critic_loss = 0.14019477367401123  actor_loss = -0.18028002977371216  entropy_loss = 2.777953624725342  total_loss = -0.13658027350902557 grads_norm = 1.6492658853530884  mins=84.94     
+train_epoch 4 Epoch 53/1000 completed. critic_loss = 0.29432010650634766  actor_loss = -0.4138045608997345  entropy_loss = 2.7729263305664062  total_loss = -0.2929680049419403 grads_norm = 2.1594908237457275  mins=86.33     
+train_epoch 4 Epoch 54/1000 completed. critic_loss = 0.3628879189491272  actor_loss = -0.05253991112112999  entropy_loss = 2.776099920272827  total_loss = 0.10257676243782043 grads_norm = 2.299717426300049  mins=87.72     
+train_epoch 4 Epoch 55/1000 completed. critic_loss = 0.12305078655481339  actor_loss = -0.25481584668159485  entropy_loss = 2.784196376800537  total_loss = -0.21966812014579773 grads_norm = 1.51608407497406  mins=89.11     
+train_epoch 4 Epoch 56/1000 completed. critic_loss = 0.21173466742038727  actor_loss = 0.026179946959018707  entropy_loss = 2.7776241302490234  total_loss = 0.10575820505619049 grads_norm = 2.0868849754333496  mins=90.50     
+train_epoch 4 Epoch 57/1000 completed. critic_loss = 0.26518094539642334  actor_loss = -0.05851221829652786  entropy_loss = 2.7575154304504395  total_loss = 0.0480055958032608 grads_norm = 2.3487234115600586  mins=91.89     
+train_epoch 4 Epoch 58/1000 completed. critic_loss = 1.203583002090454  actor_loss = -0.23130106925964355  entropy_loss = 2.7513504028320312  total_loss = 0.3445020914077759 grads_norm = 8.627796173095703  mins=93.28     
+train_epoch 4 Epoch 59/1000 completed. critic_loss = 0.28451794385910034  actor_loss = 0.12198890000581741  entropy_loss = 2.7278974056243896  total_loss = 0.23850680887699127 grads_norm = 2.474806308746338  mins=94.67     
+train_epoch 4 Epoch 60/1000 completed. critic_loss = 0.7615161538124084  actor_loss = 0.033802829682826996  entropy_loss = 2.7220277786254883  total_loss = 0.3889009356498718 grads_norm = 6.422238826751709  mins=96.07     
+Average reward at epoch 60: -1.2
+train_epoch 4 Epoch 61/1000 completed. critic_loss = 1.1446373462677002  actor_loss = -0.018611066043376923  entropy_loss = 2.733377695083618  total_loss = 0.5279663801193237 grads_norm = 6.668467044830322  mins=99.28     
+train_epoch 4 Epoch 62/1000 completed. critic_loss = 0.3999156355857849  actor_loss = 0.05078954994678497  entropy_loss = 2.7343668937683105  total_loss = 0.22502261400222778 grads_norm = 3.100560188293457  mins=100.73    
+train_epoch 4 Epoch 63/1000 completed. critic_loss = 0.16267302632331848  actor_loss = -0.25821658968925476  entropy_loss = 2.7278950214385986  total_loss = -0.2025182992219925 grads_norm = 2.200012445449829  mins=102.23    
+train_epoch 4 Epoch 64/1000 completed. critic_loss = 0.30968570709228516  actor_loss = -0.05209143087267876  entropy_loss = 2.7153444290161133  total_loss = 0.07725667208433151 grads_norm = 2.1048381328582764  mins=103.74    
